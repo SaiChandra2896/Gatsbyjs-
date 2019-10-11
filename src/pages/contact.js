@@ -1,5 +1,7 @@
 import React from "react"
 
+import Footer from "../components/footer"
+
 const ContactPage = () => {
   return (
     <div>
@@ -10,6 +12,7 @@ const ContactPage = () => {
           9177436073
         </a>
       </p>
+      <Footer />
     </div>
   )
 }
