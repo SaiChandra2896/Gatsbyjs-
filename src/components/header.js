@@ -9,24 +9,47 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <h1>
-        {" "}
-        <Link to="/">Sai Chandra</Link>
+        <Link to="/" className={headerStyles.title}>
+          Sai Chandra
+        </Link>
       </h1>
       <nav>
-        <ul>
+        <ul className={headerStyles.navlist}>
           <li>
-            <Link className={headerStyles.link} to="/">
+            <Link
+              className={headerStyles.navitem}
+              activeClassName={headerStyles.activeNavitem}
+              to="/"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link
+              to="/blog"
+              className={headerStyles.navitem}
+              activeClassName={headerStyles.activeNavitem}
+            >
+              Blog
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link
+              to="/about"
+              className={headerStyles.navitem}
+              activeClassName={headerStyles.activeNavitem}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link
+              to="/contact"
+              className={headerStyles.navitem}
+              activeClassName={headerStyles.activeNavitem}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

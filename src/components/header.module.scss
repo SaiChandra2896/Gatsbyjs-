@@ -1,7 +1,30 @@
-.link {
+.navitem {
   color: #999999;
+  font-size: 0.9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.title {
+  color: #000000;
+  font-size: 3rem;
+  text-decoration: none;
 }
 
 .header {
   padding: 1rem 0 3rem;
+}
+
+.navlist {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.navitem:hover {
+  color: #666666;
+}
+
+.active-navitem {
+  color: #333333;
 }
