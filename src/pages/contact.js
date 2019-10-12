@@ -1,12 +1,10 @@
 import React from "react"
 
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const ContactPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Contact</h1>
       <p>
         call me at{" "}
@@ -14,8 +12,7 @@ const ContactPage = () => {
           9177436073
         </a>
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
