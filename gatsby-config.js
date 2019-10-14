@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Full-stack Bootcamp",
+    title: "This site is Using gatsbyJS",
     author: "Sai Chandra",
   },
   plugins: [
