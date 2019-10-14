@@ -11,6 +11,13 @@ module.exports = {
     author: "Sai Chandra",
   },
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: "byk55f4joq8m",
+        accessToken: "3F4NDIqTkDSXgru52N0R3XIlWhE4sQhp0D8X2kGnCtY",
+      },
+    },
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
